@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1551208878975
+Build-Jdk: 1.8.0_131
+Built-By: will5476
+Bundle-Blueprint: OSGI-INF/blueprint/config.xml
+Bundle-ContactAddress: geoevent@esri.com
+Bundle-ManifestVersion: 2
+Bundle-Name: Esri :: GeoEvent :: Transport :: Azure Event Hub
+Bundle-SymbolicName: com.esri.geoevent.transport.azure-event-hub-transpo
+ rt
+Bundle-Version: 10.6.0
+Created-By: Apache Maven Bundle Plugin
+Embed-Dependency: *;scope=compile|runtime;inline=true
+Embed-Transitive: true
+Export-Service: com.esri.ges.transport.TransportService
+Import-Package: com.esri.ges.core.component,com.esri.ges.core.geoevent,c
+ om.esri.ges.core.property,com.esri.ges.framework.i18n,com.esri.ges.mess
+ aging,com.esri.ges.transport,com.google.errorprone.annotations.concurre
+ nt;resolution:=optional,javax.annotation;resolution:=optional,javax.cry
+ pto;resolution:=optional,javax.crypto.spec;resolution:=optional,javax.n
+ et.ssl;resolution:=optional,javax.xml.parsers;resolution:=optional,java
+ x.xml.stream;resolution:=optional,org.apache.commons.lang3;resolution:=
+ optional;version="[3.5,4)",org.apache.commons.lang3.tuple;resolution:=o
+ ptional;version="[3.5,4)",org.osgi.service.blueprint;version="[1.0.0,2.
+ 0.0)";resolution:=optional,org.slf4j;resolution:=optional;version="[1.6
+ ,2)",org.xml.sax;resolution:=optional,org.xml.sax.helpers;resolution:=o
+ ptional,sun.misc;resolution:=optional
+Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.8))"
+Tool: Bnd-3.0.0.201509101326

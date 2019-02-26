@@ -1,0 +1,11 @@
+com\esri\geoevent\transport\azure\AzureEventHubOutboundTransportDefinition.class
+com\esri\geoevent\transport\azure\AzureEventHubInboundTransportDefinition.class
+com\esri\geoevent\transport\azure\AzureEventHubInboundTransport$EventProcessorFactory.class
+com\esri\geoevent\transport\azure\AzureEventHubInboundTransportService.class
+com\esri\geoevent\transport\azure\AzureEventHubInboundTransport$1.class
+com\esri\geoevent\transport\azure\AzureEventHubOutboundTransportService.class
+com\esri\geoevent\transport\azure\AzureEventHubInboundTransport$EventProcessor.class
+com\esri\geoevent\transport\azure\AzureEventHubInboundTransport.class
+com\esri\geoevent\transport\azure\AzureEventHubOutboundTransport$1.class
+com\esri\geoevent\transport\azure\AzureEventHubInboundTransport$ErrorNotificationHandler.class
+com\esri\geoevent\transport\azure\AzureEventHubOutboundTransport.class
